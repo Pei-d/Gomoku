@@ -1,0 +1,3 @@
+D:/Program/server_gomoku/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Program/server_gomoku/cmake-build-debug/CMakeFiles/server_gomoku.dir
+D:/Program/server_gomoku/cmake-build-debug/CMakeFiles/edit_cache.dir

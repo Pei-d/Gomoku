@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Gomoku"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\5.15.2\;CMake Files\..\..\Qt\5.15.2\mingw81_64\;CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\;CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\;CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\;CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Program/Gomoku/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gomoku">
+				<Option output="D:/Program/Gomoku/cmake-build-debug/Gomoku.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/Gomoku/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="D:/Program/Gomoku/cmake-build-debug/Gomoku_autogen/include"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gomoku"/>
+					<CompileFile command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gomoku/fast">
+				<Option output="D:/Program/Gomoku/cmake-build-debug/Gomoku.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/Gomoku/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="D:/Program/Gomoku/cmake-build-debug/Gomoku_autogen/include"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/5.15.2/mingw81_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gomoku/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Program/Gomoku/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Program/Gomoku/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Gomoku_autogen">
+				<Option working_dir="D:/Program/Gomoku/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 Gomoku_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Program/Gomoku/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Program/Gomoku/cmake-build-debug/Gomoku_autogen/mocs_compilation.cpp">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/gomoku.cpp">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/gomoku.h">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/gomoku.ui">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/loginwin.cpp">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/loginwin.h">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/loginwin.ui">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/main.cpp">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/mainwin.cpp">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/mainwin.h">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/mainwin.ui">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/request.cpp">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/request.h">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/request.ui">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/temp.h">
+			<Option target="Gomoku"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Program/Gomoku/../../Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\5.15.2\mingw81_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+d680a71a5deb2e40c2038ce5246eeba0 CMakeFiles/Gomoku_autogen

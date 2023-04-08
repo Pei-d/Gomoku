@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Program/server_gomoku/main.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+winsock2.h
+-
+windows.h
+-
+process.h
+-
+

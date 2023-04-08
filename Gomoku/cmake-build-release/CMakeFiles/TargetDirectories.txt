@@ -1,0 +1,4 @@
+D:/Program/Gomoku/cmake-build-release/CMakeFiles/Gomoku.dir
+D:/Program/Gomoku/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/Program/Gomoku/cmake-build-release/CMakeFiles/rebuild_cache.dir
+D:/Program/Gomoku/cmake-build-release/CMakeFiles/Gomoku_autogen.dir

@@ -1,0 +1,4 @@
+"D:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\Program\Gomoku
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Program/Gomoku/cmake-build-debug
